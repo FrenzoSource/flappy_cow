@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/image/flappy_cow_title.png" alt="Logo Flappy Cow" width="700">
+</p>
+
 # 🐄 Flappy Cow
 Flappy cow est un jeu inspiré de 'Flappy Bird' ou l'on incarne une vache qui doit sauter entre des tuyaux. Ce jeu est développé en JavaScript, HTML et CSS.
 
