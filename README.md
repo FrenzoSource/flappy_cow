@@ -11,7 +11,7 @@ Flappy cow est un jeu inspiré de 'Flappy Bird' ou l'on incarne une vache qui do
 ### Installation :
 
 1. Télécharger le projet ou le cloner avec Git :
-    git clone URL_DE_TON_DEPOT
+    git clone https://github.com/FrenzoSource/flappy_cow.git
 
 2. Ouvrir le dossier du projet.
 
