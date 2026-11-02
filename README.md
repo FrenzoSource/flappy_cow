@@ -15,15 +15,16 @@ Flappy cow est un jeu inspiré de 'Flappy Bird' ou l'on incarne une vache qui do
 ### Installation :
 
 1. Télécharger le projet ou le cloner avec Git :
-2. ```bash
+  ```bash
     git clone https://github.com/FrenzoSource/flappy_cow.git
-   ```
+  ```
 
-3. Ouvrir le dossier du projet.
+2. Ouvrir le dossier du projet.
 
-4. Lancer le fichier Python lancer_jeu.py avec la commande:
-     python3 lancer_jeu.py
-
+3. Lancer le fichier Python lancer_jeu.py avec la commande:
+  ```bash
+   python3 lancer_jeu.py
+  ```
 
 ### Pourquoi faut il utiliser Python?
 Certains fichiers JS du jeu contiennent des modules JavaScript (export, import).
