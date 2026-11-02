@@ -1,0 +1,69 @@
+
+
+
+.menu-background {
+    background-image: url("image/flappy_cow_menu.png");
+    background-size: cover;
+}
+
+.boutton_play {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 14%;
+
+    right: 44%;
+    bottom: 5%;
+}
+
+
+.cow_dimension {
+    padding: 0%;
+    margin: 0%;
+
+    width: 67px;
+}
+
+
+.pipe_haut {
+    position : absolute;
+    padding: 0;
+    margin: 0;
+    top : 0;
+
+    width: 87px;
+
+}
+
+.pipe_bas {
+    position : absolute;
+    padding: 0;
+    margin : 0;
+    bottom: 0;
+
+    width: 87px;
+}
+
+.background_game {
+    background-image: url("image/fond_game.png");
+}
+
+#score {
+    position: absolute;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 30px;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    z-index: 50;
+}
+
+.game_over {
+    position: fixed;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
