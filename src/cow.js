@@ -100,8 +100,6 @@ export class Cow {
         this.#pos_y = 80;
     }
 
-    //Faire fonction reset cow
-
 }
 
 
