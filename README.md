@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/image/flappy_cow_title.png" alt="Logo Flappy Cow" width="700">
+  <img src="src/image/flappy_cow_title.png" alt="Logo Flappy Cow" width="100">
 </p>
 
 # 🐄 Flappy Cow
