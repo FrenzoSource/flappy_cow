@@ -99,14 +99,15 @@ document.addEventListener("keydown", function(event) {
     };
 })
 
-//Creation dune liste pour stocker les objets pipe
-/*
-creation dune liste de liste de pipe. liste_pipe = [[pipe_haut, pipe_bas], [pipe_haut, pipe_bas]];
-*/
 
 
 let dernier_pipe = 0;
 let intervalle_pipe = 2000; // 2secondes
+/*
+intervalle pipe doit etre diminuer au fur et a mesure de la partie
+(pr linstant seulement la vitesse des pipes varie)
+sappuyer sur calculer_vitesse_pipe() definit plus haut
+*/
 
 
 function boucle_jeu(liste_pipe) {
@@ -189,10 +190,4 @@ export function lancement_partie() {
 
     requestAnimationFrame(() => boucle_jeu(liste_pipe));
 }
-/*
-export function lancement_partie() {
-    if (partie_en_cours) {
-        requestAnimationFrame(() => boucle_jeu(liste_pipe));
-    }
-}*/
-//lancement_partie();
+
